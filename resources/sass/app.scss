@@ -1,0 +1,73 @@
+// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+    /* Biru untuk navbar */
+}
+
+.navbar .navbar-brand img {
+    width: 40px;
+}
+
+/* Main Section */
+#main {
+    background-color: #f8f9fa;
+    /* Latar belakang utama */
+    padding-top: 120px;
+    /* Menyesuaikan jarak dengan navbar */
+}
+
+#main h1 {
+    color: #dc3545;
+    /* Warna teks merah untuk judul */
+}
+
+#main p {
+    color: #6c757d;
+    /* Warna teks abu-abu */
+}
+
+#main .btn {
+    border-radius: 50px;
+    /* Membuat tombol lebih bulat */
+}
+
+#main .btn.bg-success {
+    background-color: #28a745;
+}
+
+/* Footer */
+#footer {
+    background-color: #f8f9fa;
+    /* Latar belakang footer */
+}
+
+#footer h5 {
+    color: #007bff;
+    /* Warna heading di footer */
+}
+
+#footer ul li a {
+    color: #6c757d;
+    /* Warna link */
+}
+
+#footer ul li a:hover {
+    color: #007bff;
+    /* Warna link saat hover */
+}
